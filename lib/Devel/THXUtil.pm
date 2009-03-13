@@ -1,4 +1,4 @@
-package Devel::DumpTHX;
+package Devel::THXUtil;
 use strict;
 use warnings;
 our $VERSION = '0.01';
@@ -19,15 +19,15 @@ __END__
 
 =head1 NAME
 
-Devel::DumpTHX -
+Devel::THXUtil -
 
 =head1 SYNOPSIS
 
-  use Devel::DumpTHX;
+  use Devel::THXUtil;
 
 =head1 DESCRIPTION
 
-Devel::DumpTHX is
+Devel::THXUtil is
 
 =head1 AUTHOR
 

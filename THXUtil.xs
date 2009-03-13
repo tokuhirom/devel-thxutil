@@ -9,10 +9,10 @@ extern "C" {
 }
 #endif
 
-MODULE = Devel::DumpTHX  PACKAGE = Devel::DumpTHX
+MODULE = Devel::THXUtil  PACKAGE = Devel::THXUtil
 
 SV*
-DumpTHX()
+THXUtil()
 CODE:
     RETVAL = newSVpvf("op_mask: %X", (int)PL_op_mask);
 OUTPUT:

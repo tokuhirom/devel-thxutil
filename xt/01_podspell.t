@@ -7,4 +7,4 @@ all_pod_files_spelling_ok('lib');
 __DATA__
 Tokuhiro Matsuno
 tokuhirom ah! gmail.com
-Devel::DumpTHX
+Devel::THXUtil

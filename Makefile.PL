@@ -1,6 +1,6 @@
 use inc::Module::Install;
-name 'Devel-DumpTHX';
-all_from 'lib/Devel/DumpTHX.pm';
+name 'Devel-THXUtil';
+all_from 'lib/Devel/THXUtil.pm';
 
 can_cc or die "This module requires a C compiler";
 makemaker_args(

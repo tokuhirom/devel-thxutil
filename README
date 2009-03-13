@@ -1,11 +1,11 @@
-This is Perl module Devel::DumpTHX.
+This is Perl module Devel::THXUtil.
 
 INSTALLATION
 
-Devel::DumpTHX installation is straightforward. If your CPAN shell is set up,
+Devel::THXUtil installation is straightforward. If your CPAN shell is set up,
 you should just be able to do
 
-    % cpan Devel::DumpTHX
+    % cpan Devel::THXUtil
 
 Download it, unpack it, then build it as per the usual:
 
@@ -18,9 +18,9 @@ Then install it:
 
 DOCUMENTATION
 
-Devel::DumpTHX documentation is available as in POD. So you can do:
+Devel::THXUtil documentation is available as in POD. So you can do:
 
-    % perldoc Devel::DumpTHX
+    % perldoc Devel::THXUtil
 
 to read the documentation online with your favorite pager.
 
