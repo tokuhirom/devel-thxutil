@@ -28,8 +28,8 @@ OUTPUT:
 void
 ClearOpMask()
 CODE:
-    if (aTHX->Iop_mask) {
-        Safefree(aTHX->Iop_mask);
-        aTHX->Iop_mask = NULL;
+    if (PL_op_mask) {
+        Safefree(PL_op_mask);
+        PL_op_mask = NULL;
     }
 
