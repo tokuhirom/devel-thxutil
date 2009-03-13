@@ -14,10 +14,14 @@ MODULE = Devel::DumpTHX  PACKAGE = Devel::DumpTHX
 SV*
 DumpTHX()
 CODE:
-    // SV *buf = newSV(0);
-    // sv_setpvf(buf, "op_mask: %X", (int)PL_op_mask);
-    // v(buf, "HOGE");
     RETVAL = newSVpvf("op_mask: %X", (int)PL_op_mask);
+OUTPUT:
+    RETVAL
+
+SV*
+GetTHXAddress()
+CODE:
+    RETVAL = newSViv(vTHX);
 OUTPUT:
     RETVAL
 
